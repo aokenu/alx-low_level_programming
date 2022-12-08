@@ -1,2 +1,1 @@
-C low level programming language
-This is for training purpose
+My first low level programming
