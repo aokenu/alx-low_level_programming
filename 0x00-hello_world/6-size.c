@@ -6,7 +6,7 @@
  * Description: "Prints the size of the computer compiler"
  *
  * Return: Always 0 (Success)
- * */
+ */
 
 int main(void)
 {
