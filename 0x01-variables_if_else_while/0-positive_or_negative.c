@@ -6,7 +6,7 @@
 /**
  * main - ENtry point
  *
- * Description: This program takes a random number and return if it is positive or not
+ * Description: Takes a random number and return if it is positive or not
  *
  * Return: Always 0 (Success)
  */
@@ -20,15 +20,15 @@ int main(void)
 
 	if (n == 0)
 	{
-		printf("%d, is zero\n", n);
+		printf("%d is zero\n", n);
 	}
 	else if (n > 0)
 	{
-		printf("%d, is positive\n", n);
+		printf("%d is positive\n", n);
 	}
 	else
 	{
-		printf("%d, is negative\n", n);
+		printf("%d is negative\n", n);
 	}
 
 	return (0);
