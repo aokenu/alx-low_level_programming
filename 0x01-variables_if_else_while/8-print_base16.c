@@ -12,16 +12,21 @@
 int main(void)
 
 {
-	int i = 0;
+	int i = 30;
+	int j = 97;
 
-	while (i < 48)
+	while (i < 3A)
 	{
-		if (i < 48)
-			putchar(i + '0');
-		else if (i > 41)
-			putchar(i - 10 + 'A');
+		putchar(i);
 		i++;
 	}
+
+	while (j < 103)
+	{
+		putchar(j);
+		j++;
+	}
+
 	putchar(10);
 
 	return (0);
