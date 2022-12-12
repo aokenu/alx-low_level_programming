@@ -13,15 +13,15 @@ int main(void)
 
 {
 	int i = 30;
-	int j = 97;
+	int j = 61;
 
-	while (i < 3A)
+	while (i <= 39)
 	{
 		putchar(i);
 		i++;
 	}
 
-	while (j < 103)
+	while (j < 67)
 	{
 		putchar(j);
 		j++;
