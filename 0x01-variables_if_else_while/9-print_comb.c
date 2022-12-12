@@ -12,29 +12,18 @@
 int main(void)
 
 {
-	int i, j;
+	int i;
 
 	i = 48;
-	j = 48;
 
 	while (i < 58)
 	{
-		j = 48;
-		while (j < 58)
-		{
-			putchar(i);
-			putchar(j);
-
-			if (i < 57 || j < 57)
-			{
-				putchar(44);
-				putchar(32);
-			}
-			j++;
-		}
-
+		putchar(i);
+		putchar(44);
 		i++;
 	}
+
+	putchar(10);
 
 	return (0);
 }
