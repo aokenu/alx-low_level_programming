@@ -4,7 +4,7 @@
 
 /**
  * main - Entry point
- * 
+ *
  * Description: Takes a random number and returns the last
  *
  * Return: Always 0 (Success)
