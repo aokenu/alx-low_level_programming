@@ -20,6 +20,7 @@ int main(void)
 	{
 		putchar(i);
 		putchar(44);
+		purchar(32);
 		i++;
 	}
 
