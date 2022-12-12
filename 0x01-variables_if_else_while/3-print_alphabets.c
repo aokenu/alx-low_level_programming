@@ -25,7 +25,7 @@ int main(void)
 	while (j < 91)
 	{
 		putchar(j);
-		j++
+		j++;
 	}
 
 	return (0);
