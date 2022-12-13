@@ -33,7 +33,7 @@ int main(void)
 				if (i < 55 || j < 56 || k < 57)
 				{
 					putchar(44);
-					putchat(32);
+					putchar(32);
 				}
 				k++;
 			}
