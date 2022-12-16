@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *_islower - check if an alphabet is in lowercase
-*parameter or member 'c' - parameter or member 'c'
+*@c: c is an ascii character
 *
 *Return: return value of '_islower' - 0 (uppercase) 1(lowercase);
 */
