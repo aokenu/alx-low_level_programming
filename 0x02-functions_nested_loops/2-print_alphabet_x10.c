@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-*print_alphabet_x10: print alphabet 10 times
+*print_alphabet_x10 -  print alphabet 10 times
 *
-*Return: void
+*Return _ 0 always(Success)
 */
 
 void print_alphabet_x10(void)
@@ -13,13 +13,15 @@ void print_alphabet_x10(void)
 
 	while (i < 123)
 	{
-		while (i < 123)
+		char j = 97;
+
+		while (j < 123)
 		{
-			_putchar(i);
-			i++;
+			_putchar(j);
+			j++;
 		}
 
-		_putchar('\n');
-		i++;
+	_putchar('\n');
+	i++;
 	}
 }
