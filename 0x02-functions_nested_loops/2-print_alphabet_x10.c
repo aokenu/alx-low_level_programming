@@ -9,9 +9,9 @@
 void print_alphabet_x10(void)
 
 {
-	int i = 97;
-
-	while (i < 123)
+	int i = 0;
+	
+	while (i < 10)
 	{
 		char j = 97;
 
